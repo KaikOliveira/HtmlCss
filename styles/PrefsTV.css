@@ -1,0 +1,27 @@
+.prefsTV {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: crimson;
+}
+
+.prefsTV .title {
+  width: 80%;
+  height: 10%;
+  background: #fff;
+}
+
+.prefsTV .title strong {
+  font-size: 22px;
+  margin-left: 5px;
+}
+
+.prefsTV .title>div {
+  width: 3.5%;
+  height: 3px;
+  background: var(--blue);
+  margin-left: 5px;
+  margin-top: 5px;
+}
