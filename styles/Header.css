@@ -1,0 +1,169 @@
+header {
+  height: 40px;
+  width: 100%;
+  background: #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header>span {
+  width: 25%;
+  height: 100%;
+  font-size: 15px;
+  margin-left: 2%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+}
+
+header nav {
+  width: 63%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+nav .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 23%;
+}
+
+.buttons .buttonFirst {
+  width: 34.3%;
+  height: 100%;
+  border-left: 1px solid var(--gray);
+  border-right: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.buttons .buttonFirst:hover {
+  background: var(--gray);
+}
+
+.buttons .buttonMid {
+  width: 34.3%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.buttons .buttonMid:hover {
+  background: var(--gray);
+}
+
+.buttons .buttonEnd {
+  width: 34.3%;
+  height: 100%;
+  border-right: 1px solid var(--gray);
+  border-left: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.buttons .buttonEnd:hover {
+  background: var(--blue);
+}
+
+.acessibilidade {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  border-right: 1px solid var(--gray);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.acessibilidade:hover {
+  background: var(--gray);
+}
+
+.acessibilidade span {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.acessibilidade span:hover {
+  color: var(--blue);
+}
+
+.tamarana {
+  width: 18%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.tamarana:hover {
+  background: var(--gray);
+}
+
+.tamarana span {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.tamarana span:hover {
+  color: var(--blue);
+}
+
+.acessoInfos {
+  width: 20%;
+  height: 100%;
+  border-right: 1px solid var(--gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.acessoInfos:hover {
+  background: var(--gray);
+}
+
+.acessoInfos span {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.acessoInfos span:hover {
+  color: var(--blue);
+}
+
+.secretaria {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid var(--gray);
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.secretaria:hover {
+  background: var(--gray);
+}
+
+.secretaria span {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-right: 5px;
+}
