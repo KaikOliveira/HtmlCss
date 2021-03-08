@@ -74,7 +74,7 @@ nav .buttons {
 }
 
 .buttons .buttonEnd:hover {
-  background: var(--blue);
+  background: var(--gray);
 }
 
 .acessibilidade {
@@ -98,10 +98,6 @@ nav .buttons {
   margin-left: 5px;
 }
 
-.acessibilidade span:hover {
-  color: var(--blue);
-}
-
 .tamarana {
   width: 18%;
   height: 100%;
@@ -118,10 +114,6 @@ nav .buttons {
 .tamarana span {
   text-transform: uppercase;
   font-size: 11px;
-}
-
-.tamarana span:hover {
-  color: var(--blue);
 }
 
 .acessoInfos {
@@ -141,10 +133,6 @@ nav .buttons {
 .acessoInfos span {
   text-transform: uppercase;
   font-size: 11px;
-}
-
-.acessoInfos span:hover {
-  color: var(--blue);
 }
 
 .secretaria {

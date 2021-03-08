@@ -72,7 +72,6 @@ section .filtroBackground {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: rgba(255, 255, 255, 0.4);
 }
 
 .searchContainer>h1 {
@@ -122,4 +121,46 @@ section .filtroBackground {
 
 .inputAndButton button:hover {
   background: var(--blue-hover);
+}
+
+.filtroBackground .suggestion {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.suggestion span {
+  background: var(--gray);
+  padding: 2px;
+  color: var(--black);
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.suggestion span:hover {
+  background: var(--white);
+}
+
+.filtroBackground .allServices {
+  width: 30%;
+  height: 60px;
+  margin-top: 45px;
+  border: 1px solid var(--white);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.allServices:hover {
+  background: var(--blue);
+}
+
+.allServices span {
+  color: var(--white);
+  font-weight: 600;
 }
