@@ -1,14 +1,14 @@
 .containerNews {
   width: 100%;
-  height: 100vh;
+  height: 680px;
   display: flex;
-  flex-direction: row;
-  background: crimson;
+  flex-direction: column;
+  align-items: center;
 }
 
 .containerNews .contentTop {
   width: 100%;
-  height: 75%;
+  height: 70%;
   background: var(--background);
   display: flex;
   align-items: center;
@@ -123,4 +123,91 @@
   height: 45%;
   background: var(--white);
   position: relative;
+}
+
+.containerNews .contentBottom {
+  width: 82.5%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBottom .top {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+}
+
+.top .othersNews {
+  width: 22.5%;
+  background: rgba(255, 255, 255, 0.4);
+  margin-left: 1.25%;
+  margin-right: 1.25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 0.5px solid #eee;
+}
+
+.othersNews span {
+  color: var(--black);
+  text-transform: uppercase;
+  margin-left: 5%;
+  margin-top: 5%;
+  font-size: 12px;
+}
+
+.othersNews p {
+  color: var(--blue);
+  font-weight: 500;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  width: 87%;
+  line-height: 28px;
+}
+
+.containerNews .bottom {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom>div {
+  width: 80%;
+}
+
+.bottom button {
+  width: 15%;
+  height: 70%;
+  margin-right: 1.25%;
+  margin-top: 10px;
+  transition: all 500ms ease-in-out;
+  background: none;
+  position: relative;
+  color: var(--black);
+}
+
+.bottom button:after {
+  content: '';
+  transition: inherit;
+  width: 40%;
+  height: 3px;
+  background: var(--blue);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.bottom button:hover {
+  color: var(--blue);
+}
+
+.bottom button:hover:after {
+  width: calc(100% + 5px);
 }
