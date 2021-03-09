@@ -11,10 +11,11 @@
   width: 80%;
   height: 10%;
   background: #fff;
+  margin-top: 0.25%;
 }
 
 .prefsTV .title strong {
-  font-size: 22px;
+  font-size: 26px;
   margin-left: 5px;
 }
 
@@ -24,4 +25,68 @@
   background: var(--blue);
   margin-left: 5px;
   margin-top: 5px;
+}
+
+.prefsTV .content {
+  width: 80%;
+  height: 79%;
+  background: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content .box {
+  width: 32.5%;
+  height: 95%;
+  background: aquamarine;
+  margin-left: 0.50%;
+  margin-right: 0.50%;
+}
+
+.prefsTV .bottom {
+  height: 10%;
+  width: 80%;
+  background: #fff;
+  margin-bottom: 0.25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bottom>div {
+  width: 80%;
+}
+
+.bottom button {
+  width: 15%;
+  height: 70%;
+  margin-right: 1.25%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  transition: all 500ms ease-in-out;
+  background: none;
+  position: relative;
+  color: var(--black);
+}
+
+.bottom button:after {
+  content: '';
+  transition: inherit;
+  width: 40%;
+  height: 3px;
+  background: var(--blue);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.bottom button:hover {
+  color: var(--blue);
+}
+
+.bottom button:hover:after {
+  width: calc(100% + 5px);
 }
