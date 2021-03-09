@@ -11,7 +11,7 @@ header {
 header>span {
   width: 25%;
   height: 100%;
-  font-size: 15px;
+  font-size: 1.5rem;
   margin-left: 2%;
   text-align: center;
   text-transform: uppercase;
@@ -94,7 +94,7 @@ nav .buttons {
 
 .acessibilidade span {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 1.1rem;
   margin-left: 5px;
 }
 
@@ -113,7 +113,7 @@ nav .buttons {
 
 .tamarana span {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .acessoInfos {
@@ -132,7 +132,7 @@ nav .buttons {
 
 .acessoInfos span {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 .secretaria {
@@ -152,6 +152,6 @@ nav .buttons {
 
 .secretaria span {
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 1.1rem;
   margin-right: 5px;
 }

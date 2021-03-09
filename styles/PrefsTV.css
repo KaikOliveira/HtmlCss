@@ -14,7 +14,7 @@
 }
 
 .prefsTV .title strong {
-  font-size: 26px;
+  font-size: 2.6rem;
   margin-left: 5px;
 }
 
@@ -53,7 +53,7 @@
 }
 
 .box .description {
-  font-size: 18px;
+  font-size: 1.8rem;
   width: 80%;
   color: var(--text-gray);
   margin-right: 10px;
