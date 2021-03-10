@@ -160,4 +160,49 @@
   .filtroBackground .allServices {
     height: 35px;
   }
+
+  .containerNews {
+    height: 450px;
+  }
+
+  .carrossel .circulo {
+    width: 120px;
+    height: 120px;
+  }
+
+  .carrossel span {
+    font-size: 1.4rem;
+  }
+
+  .carrossel .filtro small {
+    font-size: 1rem;
+  }
+
+  .filtro strong {
+    font-size: 2rem;
+    width: 80%;
+  }
+
+  .filtroLastNews span {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+
+  .filtroLastNews p {
+    font-size: 1.6rem;
+  }
+
+  .othersNews span {
+    font-size: 0.7rem;
+  }
+
+  .othersNews p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    width: 95%;
+  }
+
+  .containerNews .bottom button {
+    font-size: 1.2rem;
+  }
 }
