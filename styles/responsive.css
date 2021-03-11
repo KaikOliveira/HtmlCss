@@ -1,4 +1,11 @@
-@media (max-width: 960px) {
+@media (max-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   header {
     height: 35px;
   }
@@ -27,182 +34,129 @@
     font-size: 0.8rem;
   }
 
-  .searchContainer .allServices span {
-    font-size: 1.2rem;
+  .containerNews {
+    height: 800px;
+    justify-content: space-between;
   }
 
-  .containerNews {
-    height: 500px;
+  .containerNews .contentTop {
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .carrossel {
+    width: 100%;
+    height: 50%;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .carrossel .circulo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .carrossel span {
+    font-size: 1.6rem;
+  }
+
+  .filtro strong {
+    font-size: 2.6rem;
+  }
+
+  .contentTop .lastNews {
+    width: 100%;
+    height: 50%;
+    margin-left: 0;
+  }
+
+  .lastNews .boxTop {
+    height: 49%;
+  }
+
+  .lastNews .filtroLastNews {
+    height: 100%;
+  }
+
+  .lastNews .boxBottom {
+    height: 49%;
+  }
+
+  .containerNews .contentBottom {
+    width: 100%;
+    height: 40%;
+    flex-direction: column;
+  }
+
+  .contentBottom .top {
+    flex-direction: column;
+    height: 85%;
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .top .othersNews {
+    width: 100%;
+    height: 24.5%;
+    margin-top: 0;
+    margin-left: 0;
+    border: 0;
   }
 
   .othersNews span {
-    font-size: 1rem;
+    margin-top: 5px;
   }
 
   .othersNews p {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    width: 95%;
+    margin-top: 10px;
   }
 
-  .filtroLastNews p {
-    font-size: 1.8rem;
+  .containerNews .bottom {
+    height: 15%;
+    margin-top: 0;
   }
 
-  .search {
-    height: 400px;
+  .bottom button {
+    margin-top: 0px;
   }
 
   .prefsTV {
-    height: 400px;
+    width: 115%;
+    height: 450px;
   }
 
-  .prefsTV .content .box .description {
-    font-size: 1.4rem;
+  .prefsTV .bottom {
+    height: 8%;
   }
 
   .banners {
     height: 200px;
+    margin-top: 0;
+  }
+
+  .banners .container {
+    width: 90%;
   }
 
   footer {
-    height: 300px;
-  }
-
-  footer .columnLogo .logo {
-    height: 30%;
-  }
-
-  footer .titleFooter strong {
-    font-size: 1.4rem;
-  }
-
-  footer .options span {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
-  }
-
-  footer .columnRedesSociais .redesSociais {
-    height: 65%;
-    width: 80%;
-  }
-
-  footer .container .bottom span {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 765px) {
-  header {
-    height: 30px;
-  }
-
-  header>span {
-    font-size: 1rem;
-  }
-
-  header nav .buttons {
-    font-size: 0.8rem;
-  }
-
-  header nav .acessibilidade span {
-    font-size: 0.6rem;
-  }
-
-  header nav .tamarana span {
-    font-size: 0.6rem;
-  }
-
-  header nav .acessoInfos span {
-    font-size: 0.6rem;
-  }
-
-  header nav .secretaria span {
-    font-size: 0.6rem;
-  }
-
-  .search {
     height: 350px;
   }
 
-  .search .searchContainer {
-    height: 70%;
+  footer .container {
+    width: 90%;
   }
 
-  .search .filtroBackground .heading {
-    height: 10%;
-  }
-
-  .heading .infos>span {
-    font-size: 1.4rem;
-  }
-
-  .heading .infos .boxInfos span {
-    font-size: 1.4rem;
-  }
-
-  .searchContainer>h1 {
-    font-size: 1.8rem;
-  }
-
-  .searchContainer .inputAndButton {
-    height: 35px;
-  }
-
-  .inputAndButton input {
-    height: 35px;
-  }
-
-  .filtroBackground .suggestion span {
-    font-size: 0.8rem;
-  }
-
-  .filtroBackground .allServices {
-    height: 35px;
-  }
-
-  .containerNews {
-    height: 450px;
-  }
-
-  .carrossel .circulo {
-    width: 120px;
-    height: 120px;
-  }
-
-  .carrossel span {
-    font-size: 1.4rem;
-  }
-
-  .carrossel .filtro small {
-    font-size: 1rem;
-  }
-
-  .filtro strong {
-    font-size: 2rem;
-    width: 80%;
-  }
-
-  .filtroLastNews span {
-    margin-top: 10px;
-    font-size: 1rem;
-  }
-
-  .filtroLastNews p {
+  footer .titleFooter strong {
     font-size: 1.6rem;
   }
 
-  .othersNews span {
-    font-size: 0.7rem;
+  footer .options span {
+    font-size: 1.3rem;
+    line-height: 2.4rem;
   }
 
-  .othersNews p {
-    font-size: 1rem;
-    line-height: 1.2rem;
-    width: 95%;
-  }
-
-  .containerNews .bottom button {
-    font-size: 1.2rem;
+  footer .container .bottom span {
+    font-size: 1.4rem;
   }
 }
